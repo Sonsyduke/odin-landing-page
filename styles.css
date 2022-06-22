@@ -1,0 +1,165 @@
+/* CSS RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* GENERAL CSS */
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.hero-section {
+	background-color: #1f2937;
+	min-height: 100vh;
+}
+
+.main-container{
+	width: 80%;
+	margin: auto;
+}
+
+.navbar {
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links {
+	display: flex;
+	gap: 30px;
+}
+
+.logo {
+	text-decoration: none;
+	color: #f9faf8;
+	font-size: 24px;
+}
+
+.link, a {
+	text-decoration: none;
+	color: #e5e7eb;
+	font-size: 18px;
+}
+
+.main-section {
+	width: 80%;
+	margin: 100px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.left-side {
+	width: 50%;
+}
+
+.main-heading {
+	font-size: 48px;
+	font-weight: 900;
+	color: #f9faf8;
+	margin-bottom: 10px;
+}
+
+.main-heading span {
+	color: #d61616;
+}
+
+.desc {
+	font-size: 18px;
+	color: #e5e7eb;
+	line-height: 1.5;
+	margin-bottom: 30px;
+}
+
+.info-btn {
+	background-color: #d61616;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+
+.info-btn:hover {
+	background-color: #970f0f;
+}
+
+.right-side, img {
+	width: 400px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.skills-section .main-container {
+	margin: 50px auto;
+	
+}
+
+.skills-heading {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1f2937;
+	text-align: center;
+}
+
+.skills {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+}
+
+.skill {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.skill img {
+	width: 80%;
+	height: 50%;
+}
+
+.desc-skill {
+	line-height: 1.5;
+}
