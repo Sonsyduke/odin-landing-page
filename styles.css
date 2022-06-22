@@ -83,6 +83,10 @@ body {
 	font-size: 18px;
 }
 
+.link a:hover {
+	color: #d61616;
+}
+
 .main-section {
 	width: 80%;
 	margin: 100px auto;
@@ -188,4 +192,59 @@ body {
 	font-size: 30px;
 	font-weight: 900;
 	margin-top: 30px;
+	color: #d61616;
+}
+
+.contact-section {
+	margin: 100px 0;
+}
+
+.contact-section .main-container {
+	height: 150px;
+	background-color: #d61616;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 70px 30px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.contact-heading {
+	font-size: 36px;
+	color: #f9faf8;
+	margin-bottom: 10px;
+	font-weight: 900;
+}
+
+.desc-contact {
+	font-size: 18px;
+	color: #f9faf8;
+}
+
+.sign-up-btn {
+	background-color: transparent;
+	border: 3px solid #f9faf8;
+	border-radius: 7px;
+	padding: 10px 30px;
+	color: #f9faf8;
+	font-size: 18px;
+}
+
+.sign-up-btn:hover {
+	color: #d61616;
+	background-color: #f9faf8;
+	cursor: pointer;
+}
+
+.footer-section {
+	height: 100px;
+	background-color: #1f2937;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.copyright {
+	color: #f9faf8;
 }
